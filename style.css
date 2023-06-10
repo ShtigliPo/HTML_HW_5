@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.header-link {
+    font-family: 'Gilroy-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #000000;
+    padding: 25px;
+}
+
+
+
+.main-box {
+    margin-top: 84px;
+    margin-bottom: 163px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+
+}
+
+.main-left {
+    max-width: 522px;
+}
+
+.main-dsc {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+}
+
+.button-link {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 15px 36px 16px 35px;
+    background: #F25822;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-right: 72px;
+    border: 1px solid transparent;
+}
+
+.button-video {
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 0;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 97px;
+    margin-bottom: 96px;
+}
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.up_container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 370px);
+
+}
+
+.item {
+    padding: 40px;
+    
+}
+
+
+.heading {
+    margin-top: 25px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.text {
+    margin-top: 17px;
+    margin-bottom: 25px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #666666;
+}
+
+.button__read {
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.down_container {
+    background: #FAFAFA;
+    
+
+}
+
+.heading__why {
+    padding-top: 92px;
+    padding-bottom: 19px;
+    display: grid;
+    justify-content: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.heading__text {
+    margin-bottom: 55px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.container_item__big {
+    
+    margin-bottom: 100px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 370px);
+}
+
+.item__big {
+    
+    background: #fff;
+    
+    
+}
+
+.heading__big {
+    padding-top: 25px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__big__text {
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.button__learn {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 36px 15px 46px;
+    background: #F25822;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 39px 120px 50px 100px;
+    white-space: nowrap;
+}
